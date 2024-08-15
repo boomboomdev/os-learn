@@ -5,7 +5,7 @@ import os
 from art import *
 
 
-HOST_IP = '185.215.92.120' 
+HOST_IP = '127.0.0.1' 
 PORT = 5555
 def cmd_send(data):
     jsondata = json.dumps(data)
